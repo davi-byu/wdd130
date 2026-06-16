@@ -124,7 +124,7 @@ main {
 }
 
 /* =========================
-   PÁGINA SOBRE-NOS (IGUAL À IMAGEM)
+   PÁGINA SOBRE-NOS 
 ========================= */
 
 /* FUNDO CINZA */
@@ -149,30 +149,41 @@ main {
     padding: 15px;
 }
 
-/* HERO */
+/* ✅ HERO CORRIGIDO */
 .sobre-nos .hero {
     width: 100%;
+    position: relative;
 }
 
 .sobre-nos .hero img {
     width: 100%;
 }
 
+/* ✅ H1 CORRIGIDO */
 .sobre-nos .hero h1 {
     background: darkgreen;
     color: white;
-    text-align: center;
     padding: 10px;
     font-size: 18px;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
-/* MISSÃO */
-.sobre-nos article {
+/* ✅ ARTICLE CORRIGIDO */
+.sobre-nos .hero article {
     background: var(--cor-destaque2);
     padding: 10px;
-    margin: 10px 0;
+
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+    max-width: 300px;
 }
 
+/* MISSÃO IMG */
 .sobre-nos article img {
     width: 120px;
     float: right;
@@ -196,7 +207,7 @@ main {
     width: 100%;
 }
 
-/* GALERIA (VERTICAL) */
+/* GALERIA */
 .sobre-nos .galeria {
     display: flex;
     flex-direction: column;
@@ -211,7 +222,6 @@ main {
 
 .sobre-nos .galeria img {
     width: 100%;
-    text-align: center;
 }
 
 /* TÍTULOS */
@@ -224,7 +234,6 @@ main {
 .sobre-nos .socialmedia img {
     width: 20px;
 }
-
 /* =========================
    PÁGINA INICIAL
 ========================= */
@@ -393,10 +402,7 @@ footer {
     width: 30px;
 }
 
-/* SOBRE */
-.sobre-nos .socialmedia img {
-    width: 20px;
-}
+
 
 /* PÁGINA INICIAL */
 .pagina-inicial .redes-sociais img {

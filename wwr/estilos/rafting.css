@@ -127,9 +127,14 @@ main {
    PÁGINA SOBRE-NOS 
 ========================= */
 
+
+/* =========================
+   PÁGINA SOBRE-NOS 
+========================= */
+
 /* FUNDO CINZA */
 .sobre-nos {
-    background: #e6e6e6;
+    background: var(--cor-fundo-claro);
 }
 
 /* HEADER */
@@ -145,11 +150,11 @@ main {
     max-width: 900px;
     margin: 20px auto;
     background: white;
-    border: 8px solid darkgreen;
+    border: 8px solid var(--cor-destaque1);
     padding: 15px;
 }
 
-/* ✅ HERO CORRIGIDO */
+/* ✅ HERO CORRETO */
 .sobre-nos .hero {
     width: 100%;
     position: relative;
@@ -159,28 +164,28 @@ main {
     width: 100%;
 }
 
-/* ✅ H1 CORRIGIDO */
+/* ✅ H1 SOBRE A IMAGEM */
 .sobre-nos .hero h1 {
-    background: darkgreen;
-    color: white;
-    padding: 10px;
-    font-size: 18px;
-
     position: absolute;
     top: 10px;
     left: 10px;
+
+    background: var(--cor-destaque1);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
 }
 
-/* ✅ ARTICLE CORRIGIDO */
+/* ✅ ARTICLE SOBRE A IMAGEM */
 .sobre-nos .hero article {
-    background: var(--cor-destaque2);
-    padding: 10px;
-
     position: absolute;
     bottom: 10px;
     left: 10px;
 
     max-width: 300px;
+
+    background: var(--cor-destaque2);
+    padding: 10px;
 }
 
 /* MISSÃO IMG */
@@ -193,7 +198,7 @@ main {
 /* HISTÓRIA */
 .sobre-nos .conteudo-historia {
     background: #f5fff5;
-    border: 6px solid darkgreen;
+    border: 6px solid var(--cor-destaque1);
     padding: 10px;
     margin: 10px 0;
 
@@ -230,10 +235,11 @@ main {
     margin: 10px 0;
 }
 
-/* ÍCONES */
+/* ICONES */
 .sobre-nos .socialmedia img {
     width: 20px;
 }
+
 /* =========================
    PÁGINA INICIAL
 ========================= */
